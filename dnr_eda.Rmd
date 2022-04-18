@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+author: "Puja"
+date: "4/11/2022"
+output: html_document
+---
+```{r}
+
+plot(1:10)
+```
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+
+
+
+```
+```{r}
+read_xlsx("data/DNR_data/IowaDNR_2018_Data_Merged.xlsx") %>% 
+  janitor :: clean_names()
+```
+ 
